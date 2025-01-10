@@ -2,7 +2,8 @@
 %% Created: Magda Gregorova, 10/01/2025
 %%
 %% This is a template for master thesis submitted at MAI program of the THWS to Magda Gregorova.
-%% The template is provided as without any guarantees, you are free to use and modify as you see fit.
+%% The template is provided "as is" without any guarantees.
+%% you are free to use and modify as you see fit.
 
 %% The first command in your LaTeX source must be the \documentclass command.
 %% Uses the koma-script book environment for cleaner typesetting and more flexibility
@@ -10,6 +11,8 @@
 % \documentclass[12pt,twoside,a4paper,parskip,openright]{scrbook} % use this for double-sided printing
 \usepackage{scrhack} % compatibility package to emulate the former KOMA-Script
 \usepackage[markcase=ignoreuppercase,headsepline,plainfootsepline]{scrlayer-scrpage} % manage page styles, markcase: automatic typesetting in heads, headsepline: line underneath the headerm, plainfootsepline: rule above the footer
+
+%% ========== preamble ========== %%
 
 % text encoding
 \usepackage[utf8]{inputenc} % text encoding
@@ -46,6 +49,7 @@
 \bibliography{literatur}
 \usepackage[htt]{hyphenat} % texttt do line breaks
 
+%% ========== author title ========== %%
 
 %%%%%%%%%%%%%%%%%%%
 %% definitions
@@ -94,10 +98,7 @@ pdfkeywords={Keywords}
 
 
 
-%%%%%%%%%%%%%%%%%%%
-%% Titelseite
-%%%%%%%%%%%%%%%%%%%
-
+%% ========== front matter ========== %%
 
 \frontmatter
 \titlehead{%  {\centering Seitenkopf}
@@ -138,6 +139,7 @@ TODO
 \chapter*{Danksagung}
 
 
+%% ========== main document ========== %%
 
 %%%%%%%%%%%%%%%%%%%
 %% Inhaltsverzeichnis
@@ -145,7 +147,7 @@ TODO
 \tableofcontents
 
 
-
+%% ========== main matter ========== %%
 %%%%%%%%%%%%%%%%%%%
 %% Main part of the thesis
 %%%%%%%%%%%%%%%%%%%
@@ -298,6 +300,8 @@ Titel 2 & Beschreibung 2 \\
 \end{tabular}
 \caption{Übersicht der tollen Antworten.}
 \end{table}
+
+%% ========== back matter ========== %%
 
 %%%%%%%%%%%%%%%%%%%
 %% create tables list
