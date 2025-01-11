@@ -5,6 +5,7 @@ This repo contains the general instructions and LaTeX templates for MSc thesis w
 ### Thesis template
 
 Thesis shall we written in LaTeX.
+A template is provided in the [template](template) folder.
 
 ### License
 
